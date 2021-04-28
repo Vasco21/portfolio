@@ -71,7 +71,7 @@
 /****home section styling*****/
 .home{
     display: flex;
-    /* background: url("/images/me.jpeg") no-repeat center; */
+    background: url("/images/pic.png") no-repeat center right 6px;
     height: 100vh;
     color: #fff;
     background-color: black;
@@ -112,6 +112,7 @@
     color: crimson;
     background: none;
 }
+
 /**all similar content styling code***/
 
 section{
