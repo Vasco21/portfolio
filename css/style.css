@@ -71,7 +71,7 @@
 /****home section styling*****/
 .home{
     display: flex;
-    background: url("/images/pic.png") no-repeat center right 6px;
+    background: url("../images/pic.png") no-repeat center right 6px;
     height: 100vh;
     color: #fff;
     background-color: black;
