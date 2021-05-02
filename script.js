@@ -25,8 +25,8 @@ $(document).ready(function(){
 //typing
 var typed = new Typed(".typing", {
         strings: ["Software Develoer", "Blogger", "Designer", "Freelancer"],
-        typesSpeed: 100,
-        backSpeed: 60,
+        typesSpeed: 200,
+        backSpeed: 45,
         loop: true
 
 });
