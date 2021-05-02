@@ -5,29 +5,57 @@ $(document).ready(function(){
         }else{
             $('.navbar').removeClass("sticky");
         }
+        if(this.scroll > 500){
+            $('.scroll-up-btn').addClass("show");
+        }else{
+            $('.scoll-up-btn').removeClass("show");
+        }
     });
+
+    // slide up script
+    $('.scroll-up-btn').click(function(){
+        $('html').animate({scrollTop: 0});
+    });
+
    // toggle menu/navbar script
    $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
-   });
+});
+//typing
+var typed = new Typed(".typing", {
+        strings: ["Software Develoer", "Blogger", "Designer", "Freelancer"],
+        typesSpeed: 100,
+        backSpeed: 60,
+        loop: true
+
+});
+
+
+var typed = new Typed(".typing-2", {
+    strings: ["Software Develoer", "Blogger", "Designer", "Freelancer"],
+    typesSpeed: 100,
+    backSpeed: 60,
+    loop: true
+
+});
    // owl carousel script
    $('.carousel').owlCarousel({
-        margin: 20,
+        margin : 20,
         loop: true,
-        autoPlayTimeOut: 2000,
-        autoPlayHoverPause: true,
+        autoplayTimeOut: 2000,
+        autoplayHoverPause: true,
         responsive: {
             0:{
-                item: 1,
+                items: 1,
                 nav : false
             },
             600:{
-                item: 2,
+                items: 2,
                 nav : false
             },
             1000:{
-                item: 3,
+                items: 3,
                 nav : false
             }
         }
