@@ -381,11 +381,17 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+.projects .carousel .card .text a{
+    color: #fff;
+    text-decoration: underline;
+    
+}
 .projects .carousel .card img{
     height: 200px;
     width: 200px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 6px;
+    /* border-radius: 50%; */
     border: 5px solid crimson;
     transition: all 0.3s ease;
 }
