@@ -5,10 +5,10 @@ const PORT = process.env.PORT || 5000;
 
 //maddileware
 
-app.use(express.static('public'))
+app.use(express.static('portfolio'))
 
 app.get('/', (req , res) =>{
-    res.sendFile((__dirname + '/public/index.html'));
+    res.sendFile((__dirname + 'index.html'));
 })
 
 app.listen(PORT, () =>{
