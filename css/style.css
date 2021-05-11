@@ -538,12 +538,20 @@ footer span a:hover{
 .social-icon{
     display: flex;
     justify-content: center;
+    margin-top: 10px;
     
     
 }
-.social-icon i{
+.social-icon a{
     color: crimson;
     margin: 10px;
+}
+.social-icon a:hover{
+    transform: scale(1.05);
+    color: #fff;
+    background: crimson;
+    border-radius: 10px;
+    transition: all 0.3s ease;
 }
 
 

@@ -61,3 +61,14 @@ var typed = new Typed(".typing-2", {
         }
    });
 });
+
+// email submit
+
+const submitButton = document.querySelector('.column');
+
+submitButton.addEventListener('submit', (e) =>{
+    e.preventDefault();
+    console.log('submit')
+    
+})
+
