@@ -24,7 +24,7 @@ $(document).ready(function(){
 });
 //typing
 var typed = new Typed(".typing", {
-        strings: ["Software Develoer", "Blogger", "Designer", "Freelancer"],
+        strings: ["Software Developer", "Blogger", "Designer", "Freelancer"],
         typesSpeed: 100,
         backSpeed: 100,
         loop: true
@@ -33,7 +33,7 @@ var typed = new Typed(".typing", {
 
 
 var typed = new Typed(".typing-2", {
-    strings: ["Software Develoer", "Blogger", "Designer", "Freelancer"],
+    strings: ["Software Developer", "Blogger", "Designer", "Freelancer"],
     typesSpeed: 100,
     backSpeed: 60,
     loop: true
