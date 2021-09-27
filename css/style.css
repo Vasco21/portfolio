@@ -354,8 +354,9 @@ section .title::after{
 }
 /**Projects styling start***/
 .projects .title::after{
-    content: "My work";
+    content: "Projects";
 }
+
 .projects .carousel .card{
     background: #222;
     border-radius: 6px;
